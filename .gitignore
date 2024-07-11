@@ -6,3 +6,4 @@ inc/classes/*
 build
 package-lock.json
 node_modules
+composer.lock
