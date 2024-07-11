@@ -8,6 +8,7 @@
  * Version:     0.1.1
  * License:     GPLv2 or later (license.txt)
  */
+
 use function DebugHooks\Dependencies\LaunchpadCore\boot;
 
 defined( 'ABSPATH' ) || exit;
@@ -15,4 +16,4 @@ defined( 'ABSPATH' ) || exit;
 
 require __DIR__ . '/vendor-prefixed/wp-launchpad/core/inc/boot.php';
 
-boot(__FILE__);
+boot( __FILE__ );
