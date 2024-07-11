@@ -3,5 +3,5 @@
 defined( 'ABSPATH' ) || exit;
 
 return [
-    \DebugHooks\ServiceProvider::class,
+    \DebugHooks\Admin\HookBrowser\ServiceProvider::class,
 ];

@@ -1,13 +1,8 @@
 <?php
 
-namespace DebugHooks;
+namespace DebugHooks\Admin\HookBrowser;
 
-class MySubscriber {
-    /**
-     * @hook init
-     */
-    public function initialize() {
-    }
+class Subscriber {
 
     /**
      * @hook admin_menu
